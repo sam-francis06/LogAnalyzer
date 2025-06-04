@@ -1,0 +1,15 @@
+10.0.0.12
+2025-06-01T09:00:00Z GET /login?user_id=user100
+2025-06-01T09:00:05Z GET /dashboard/styles.css
+2025-06-01T09:00:07Z GET /dashboard/script.js
+2025-06-01T09:00:12Z GET /api/machines/status?user_id=user100
+2025-06-01T09:00:24Z GET /api/machines/status?user_id=user100
+2025-06-01T09:00:39Z GET /api/machines/status?user_id=user100
+
+10.0.0.38
+2025-06-01T10:10:00Z GET /login?user_id=user200
+2025-06-01T10:10:05Z GET /dashboard/styles.css
+2025-06-01T10:10:06Z GET /dashboard/script.js
+2025-06-01T10:10:10Z GET /api/machines/status?user_id=user200
+2025-06-01T10:10:21Z GET /api/machines/status?user_id=user200
+2025-06-01T10:10:40Z GET /api/machines/status?user_id=user200
