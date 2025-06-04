@@ -24,10 +24,11 @@ Use the `samples/` folder:
 
 ## 📸 Demo Screenshot
 
-![Screenshot](assets/screenshot.png)
+![image](https://github.com/user-attachments/assets/e0398bb8-4300-4624-9449-f286b6f2dd0a)
+
 
 ## 🚀 How to Use
 
 1. Clone the repo  
 ```bash
-git clone https://github.com/your-username/LogAnalyzer.git
+git clone https://github.com/sam-francis06/LogAnalyzer.git
