@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔐 LogAnalyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+            <div class="header">
+                <h1>🔐 LogAnalyzer</h1>
+                <p>Detect Suspicious User Behavior from System Logs</p>
+            </div>
+
+        <div class="upload-section">
+            <div class="file-upload">
+                <input type="file" id="fileInput" class="file-input" accept=".log,.txt">
+                <label for="fileInput" class="file-label">
+                    📁 Choose Log File
+                </label>
+            </div>
+            <button id="analyzeBtn" class="analyze-btn" disabled>
+                🔍 Analyze Logs
+            </button>
+            <div id="fileInfo" class="file-info"></div>
+        </div>
+
+        <div class="results-section">
+            <div id="loadingDiv" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                Analyzing log file...
+            </div>
+            <div id="resultsDiv" style="display: none;">
+                <div class="stats" id="statsDiv"></div>
+                <div class="results-grid">
+                    <div class="result-card">
+                        <h3>🌐 IP Address Analysis</h3>
+                        <ul id="ipList" class="ip-list"></ul>
+                    </div>
+                    <div class="result-card">
+                        <h3>👤 User Behavior Analysis</h3>
+                        <ul id="userList" class="user-list"></ul>
+                    </div>
+                </div>
+                <div id="verdictDiv" class="verdict"></div>
+            </div>
+        </div>
+        <div class="footer-credit">
+            Done by Francis Samuvel
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
